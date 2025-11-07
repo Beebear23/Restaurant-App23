@@ -43,11 +43,11 @@ const mockRestaurants = [
   },
   {
     id: 'rest-2',
-    name: 'Spur Steak Ranch - Waterfront',
+    name: 'Ocean Basket - Waterfront',
     image_url: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800',
     rating: 4.7,
     review_count: 567,
-    categories: [{ title: 'Steakhouse' }, { title: 'Grill' }],
+    categories: [{ title: 'Seafood' }, { title: 'Mediterranean' }],
     location: {
       address1: 'V&A Waterfront',
       city: 'Cape Town',
@@ -60,11 +60,11 @@ const mockRestaurants = [
   },
   {
     id: 'rest-3',
-    name: 'Spur Steak Ranch - Gateway',
-    image_url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800',
+    name: 'Nando\'s - Gateway',
+    image_url: 'https://gatewaynt.com.au/wp-content/uploads/2023/08/GW-Store-Pavilions-Nandos-Article-v1.jpg',
     rating: 4.3,
     review_count: 234,
-    categories: [{ title: 'American' }, { title: 'Family Restaurant' }],
+    categories: [{ title: 'Portuguese' }, { title: 'Chicken' }],
     location: {
       address1: 'Gateway Theatre of Shopping',
       city: 'Durban',
@@ -77,11 +77,11 @@ const mockRestaurants = [
   },
   {
     id: 'rest-4',
-    name: 'Spur Steak Ranch - Menlyn',
+    name: 'Tashas - Menlyn',
     image_url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800',
     rating: 4.6,
     review_count: 456,
-    categories: [{ title: 'Steakhouse' }, { title: 'Bar' }],
+    categories: [{ title: 'Cafe' }, { title: 'Contemporary' }],
     location: {
       address1: 'Menlyn Park Shopping Centre',
       city: 'Pretoria',
@@ -94,28 +94,28 @@ const mockRestaurants = [
   },
   {
     id: 'rest-5',
-    name: 'Spur Steak Ranch - Eastgate',
+    name: 'Moyo - Melrose Arch',
     image_url: 'https://images.unsplash.com/photo-1550547660-d9450f859349?w=800',
     rating: 4.4,
     review_count: 289,
-    categories: [{ title: 'Grill' }, { title: 'Family Dining' }],
+    categories: [{ title: 'African' }, { title: 'Fine Dining' }],
     location: {
-      address1: 'Eastgate Shopping Centre',
+      address1: 'Melrose Arch',
       city: 'Johannesburg',
       state: 'Gauteng',
-      display_address: ['Eastgate', 'Johannesburg, Gauteng']
+      display_address: ['Melrose Arch', 'Johannesburg, Gauteng']
     },
     phone: '+27115557890',
     display_phone: '011 555 7890',
-    price: '$$'
+    price: '$$$'
   },
   {
     id: 'rest-6',
-    name: 'Spur Steak Ranch - Canal Walk',
+    name: 'Col\'Cacchio - Canal Walk',
     image_url: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800',
-    rating: 4.8,
+    rating: 4.2,
     review_count: 623,
-    categories: [{ title: 'Steakhouse' }, { title: 'American' }],
+    categories: [{ title: 'Italian' }, { title: 'Pizza' }],
     location: {
       address1: 'Canal Walk Shopping Centre',
       city: 'Cape Town',
@@ -125,6 +125,40 @@ const mockRestaurants = [
     phone: '+27215552345',
     display_phone: '021 555 2345',
     price: '$$'
+  },
+  {
+    id: 'rest-7',
+    name: 'Simply Asia - Rosebank',
+    image_url: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800',
+    rating: 4.1,
+    review_count: 178,
+    categories: [{ title: 'Thai' }, { title: 'Asian' }],
+    location: {
+      address1: 'The Zone @ Rosebank',
+      city: 'Johannesburg',
+      state: 'Gauteng',
+      display_address: ['The Zone', 'Rosebank, Gauteng']
+    },
+    phone: '+27115558899',
+    display_phone: '011 555 8899',
+    price: '$$'
+  },
+  {
+    id: 'rest-8',
+    name: 'Hussar Grill - Camps Bay',
+    image_url: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800',
+    rating: 4.8,
+    review_count: 445,
+    categories: [{ title: 'Steakhouse' }, { title: 'Fine Dining' }],
+    location: {
+      address1: 'Camps Bay Drive',
+      city: 'Cape Town',
+      state: 'Western Cape',
+      display_address: ['Camps Bay Drive', 'Camps Bay, Cape Town']
+    },
+    phone: '+27215553322',
+    display_phone: '021 555 3322',
+    price: '$$$'
   }
 ];
 

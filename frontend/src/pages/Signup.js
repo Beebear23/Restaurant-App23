@@ -113,7 +113,7 @@ function Signup() {
                     name="displayName"
                     value={formData.displayName}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="User's Full Name"
                     required
                   />
                 </div>
